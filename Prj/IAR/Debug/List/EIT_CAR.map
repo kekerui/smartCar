@@ -1,0 +1,729 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.3.8024/W32 for ARM                 15/Jul/2017  22:55:02
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Exe\EIT_CAR.out
+#    Map file     =  
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\List\EIT_CAR.map
+#    Command line =  
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\CarSystem.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\CarTest.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\ControlGraphTask.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\ControlParam.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\ControlSpeedTask.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\ControlVar.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\diskio.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_ADC.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Buzzer.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Key.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Log.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Model.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_MotorL.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_MotorR.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_PID.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Show.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_SpeedL.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_SpeedR.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\EIT_Steer.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\ff.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\imCom.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\imProc.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\IntHandler.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\main.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\misc.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_adc.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_can.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_conf.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_dac.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_dma.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_DWT.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_flash.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_flexbus.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_ftm.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_gpio.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_i2c.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_it.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_lptmr.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_mcg.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_PIT.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_port.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_rtc.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_sdhc.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_spi.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_SysTick.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_uart.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_usb.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\MK60_wdog.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\startup_MK60DZ10.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\system_MK60DZ10.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_ASCII.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_BMP.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_camera.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\vcan_img2sd.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_key.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_key_event.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_LCD.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_LCD_ILI9341.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_LCD_ST7735R.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_LED.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_OV7725_Eagle.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_SCCB.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\VCAN_TSL1401.o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj\vectors.o
+#        -o
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Exe\EIT_CAR.out
+#        --map
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\List\EIT_CAR.map
+#        --config
+#        "D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\config
+#        files\vcan_ROM_K60N1M.icf" --semihosting
+#        D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4lf_math.a
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00100000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address     Size  Object
+  -------              ----        -------     ----  ------
+"A1":                                         0x410
+  .intvec              const    0x00000000    0x410  vectors.o [1]
+                              - 0x00000410    0x410
+
+"P1", part 1 of 2:                              0x0
+  .rodata              const    0x00000410      0x0  zero_init3.o [5]
+
+"A2":                                           0x8
+  .noinit              ro code  0x00000410      0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418      0x8
+
+"P1", part 2 of 2:                           0x9ed0
+  .text                ro code  0x00000418   0x3470  imProc.o [1]
+  .text                ro code  0x00003888     0x2c  EIT_Buzzer.o [1]
+  .text                ro code  0x000038b4     0x18  imCom.o [1]
+  .text                ro code  0x000038cc     0x2c  I32ToDbl.o [4]
+  .text                ro code  0x000038f8    0x246  DblDiv.o [4]
+  .text                ro code  0x00003b3e     0x22  zero_init3.o [5]
+  .text                ro code  0x00003b60    0x180  DblSub.o [4]
+  .text                ro code  0x00003ce0     0x58  DblToI32.o [4]
+  .text                ro code  0x00003d38     0xe8  DblAdd.o [4]
+  .text                ro code  0x00003e20    0x11c  MK60_gpio.o [1]
+  .text                ro code  0x00003f3c    0x290  MK60_adc.o [1]
+  .text                ro code  0x000041cc     0xb0  MK60_port.o [1]
+  .text                ro code  0x0000427c   0x1c00  VCAN_LCD_ST7735R.o [1]
+  .text                ro code  0x00005e7c     0x6c  MK60_DWT.o [1]
+  .text                ro code  0x00005ee8    0x618  ControlGraphTask.o [1]
+  .text                ro code  0x00006500    0x31c  ControlSpeedTask.o [1]
+  .text                ro code  0x0000681c     0xdc  EIT_SpeedR.o [1]
+  .text                ro code  0x000068f8     0xd4  EIT_SpeedL.o [1]
+  .text                ro code  0x000069cc     0x1e  EIT_Steer.o [1]
+  .rodata              const    0x000069ea      0x2  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x000069ec    0x1a2  DblMul.o [4]
+  .text                ro code  0x00006b90     0xa6  EIT_MotorL.o [1]
+  .text                ro code  0x00006c38     0xa6  EIT_MotorR.o [1]
+  .text                ro code  0x00006cde    0x15a  EIT_PID.o [1]
+  .text                ro code  0x00006e38    0x474  MK60_ftm.o [1]
+  .rodata              const    0x000072ac    0x600  VCAN_ASCII.o [1]
+  .text                ro code  0x000078ac    0x5b4  EIT_Key.o [1]
+  .text                ro code  0x00007e60     0x4c  MK60_SysTick.o [1]
+  .text                ro code  0x00007eac    0x2e8  EIT_Show.o [1]
+  .text                ro code  0x00008194    0x53c  VCAN_LCD.o [1]
+  .text                ro code  0x000086d0     0x4e  FltToDbl.o [4]
+  .text                ro code  0x00008720     0x90  DblToFlt.o [4]
+  .text                ro code  0x000087b0     0x6c  EIT_ADC.o [1]
+  Veneer               ro code  0x0000881c      0x8  - Linker created -
+  .text                ro code  0x00008824    0x3d4  MK60_mcg.o [1]
+  .text                ro code  0x00008bf8    0x360  VCAN_SCCB.o [1]
+  .text                ro code  0x00008f58    0x308  CarTest.o [1]
+  .text                ro code  0x00009260    0x108  EIT_Log.o [1]
+  .text                ro code  0x00009368    0x220  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00009588     0x24  printf.o [3]
+  .text                ro code  0x000095ac    0x1c0  MK60_dma.o [1]
+  .text                ro code  0x0000976c    0x150  xprintftiny.o [3]
+  .text                ro code  0x000098bc     0x36  strlen.o [5]
+  .text                ro code  0x000098f4    0x214  MK60_uart.o [1]
+  .data_init                    0x00009b08    0x1bc  <Block>
+    Initializer bytes  ro data  0x00009b08    0x1bc  <for .data-1>
+  .text                ro code  0x00009cc4    0x11c  ControlParam.o [1]
+  .text                ro code  0x00009de0    0x10c  system_MK60DZ10.o [1]
+  .text                ro code  0x00009eec     0x40  MK60_wdog.o [1]
+  .text                ro code  0x00009f2c     0x10  main.o [1]
+  .text                ro code  0x00009f3c     0x18  misc.o [1]
+  .text                ro code  0x00009f54     0xb8  CarSystem.o [1]
+  .text                ro code  0x0000a00c     0x30  ControlVar.o [1]
+  .text                ro code  0x0000a03c     0x3a  EIT_Model.o [1]
+  .text                ro code  0x0000a078     0x68  MK60_PIT.o [1]
+  .text                ro code  0x0000a0e0     0x5c  IntHandler.o [1]
+  CodeRelocate                  0x0000a13c     0x4c  <Block>
+    Initializer bytes  ro data  0x0000a13c     0x4c  <for CodeRelocateRam-1>
+  .text                ro code  0x0000a188     0x28  data_init.o [5]
+  .text                ro code  0x0000a1b0     0x22  fpinit_M.o [4]
+  .iar.init_table      const    0x0000a1d4     0x10  - Linker created -
+  .text                ro code  0x0000a1e4     0x1a  cmain.o [5]
+  .text                ro code  0x0000a1fe      0x4  low_level_init.o [3]
+  .text                ro code  0x0000a202      0x4  exit.o [3]
+  .text                ro code  0x0000a208      0xa  cexit.o [5]
+  .text                ro code  0x0000a214     0x14  exit.o [6]
+  .text                ro code  0x0000a228     0x16  xprout.o [3]
+  .text                ro code  0x0000a240      0xc  putchar.o [3]
+  .text                ro code  0x0000a24c     0x14  MK60_conf.o [1]
+  .rodata              const    0x0000a260      0xc  EIT_Key.o [1]
+  .rodata              const    0x0000a26c      0xc  EIT_Key.o [1]
+  .rodata              const    0x0000a278      0xc  EIT_Show.o [1]
+  .rodata              const    0x0000a284      0xc  EIT_Show.o [1]
+  .text                ro code  0x0000a290      0xc  cstartup_M.o [5]
+  .rodata              const    0x0000a29c      0x8  EIT_Key.o [1]
+  .rodata              const    0x0000a2a4      0x8  EIT_Key.o [1]
+  .rodata              const    0x0000a2ac      0x8  EIT_Key.o [1]
+  .rodata              const    0x0000a2b4      0x8  EIT_Key.o [1]
+  .rodata              const    0x0000a2bc      0x8  EIT_Show.o [1]
+  .rodata              const    0x0000a2c4      0x8  EIT_Show.o [1]
+  .rodata              const    0x0000a2cc      0x8  EIT_Show.o [1]
+  .rodata              const    0x0000a2d4      0x8  EIT_Show.o [1]
+  .rodata              const    0x0000a2dc      0x4  VCAN_LCD.o [1]
+  .rodata              const    0x0000a2e0      0x4  VCAN_LCD.o [1]
+  .rodata              const    0x0000a2e4      0x4  VCAN_LCD.o [1]
+                              - 0x0000a2e8   0x9ed0
+
+"P2":                                       0x1839c
+  .data                         0x1fff0410    0x1bc  <Block>
+    .data-1                     0x1fff0410    0x1bc  <Init block>
+      .data            inited   0x1fff0410      0x8  EIT_Key.o [1]
+      .data            inited   0x1fff0418      0x4  EIT_Key.o [1]
+      .data            inited   0x1fff041c      0x1  EIT_Key.o [1]
+      .data            inited   0x1fff041d      0x1  EIT_Key.o [1]
+      .data            inited   0x1fff041e      0x1  EIT_Log.o [1]
+      .data            inited   0x1fff0420      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0424      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0428      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff042c      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0430      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0434      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0438      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff043c      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0440      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0444      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0448      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff044c      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0450      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0454      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0458      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff045c      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0460      0x4  EIT_Show.o [1]
+      .data            inited   0x1fff0464      0x4  imProc.o [1]
+      .data            inited   0x1fff0468      0x8  MK60_adc.o [1]
+      .data            inited   0x1fff0470     0x10  MK60_ftm.o [1]
+      .data            inited   0x1fff0480     0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff0494     0x58  MK60_mcg.o [1]
+      .data            inited   0x1fff04ec      0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff04f0     0x14  MK60_port.o [1]
+      .data            inited   0x1fff0504     0x18  MK60_uart.o [1]
+      .data            inited   0x1fff051c      0x2  VCAN_LCD_ST7735R.o [1]
+      .data            inited   0x1fff051e      0x2  VCAN_LCD_ST7735R.o [1]
+      .data            inited   0x1fff0520      0x1  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff0524     0x64  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff0588      0x1  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff058c     0x40  xfiles.o [3]
+  CodeRelocateRam               0x1fff05cc     0x4c  <Block>
+    CodeRelocateRam-1           0x1fff05cc     0x4c  <Init block>
+      .textrw          inited   0x1fff05cc     0x4c  MK60_mcg.o [1]
+  .bss                          0x1fff0618  0x18194  <Block>
+    .bss               zero     0x1fff0618     0xb8  ControlParam.o [1]
+    .bss               zero     0x1fff06d0      0x4  CarTest.o [1]
+    .bss               zero     0x1fff06d4      0x4  CarTest.o [1]
+    .bss               zero     0x1fff06d8      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06dc      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06e0      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06e4      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06e8      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06ec      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06f0      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06f4      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06f8      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff06fc      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0700      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0704      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0708      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff070c      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0710      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0714      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0718      0x4  ControlGraphTask.o [1]
+    .bss               zero     0x1fff071c     0x14  ControlGraphTask.o [1]
+    .bss               zero     0x1fff0730     0x3c  ControlGraphTask.o [1]
+    .bss               zero     0x1fff076c     0x2c  ControlVar.o [1]
+    .bss               zero     0x1fff0798  0x124f8  EIT_Log.o [1]
+    .bss               zero     0x20002c90      0x4  EIT_Log.o [1]
+    .bss               zero     0x20002c94      0x4  EIT_Show.o [1]
+    .bss               zero     0x20002c98      0x4  EIT_Show.o [1]
+    .bss               zero     0x20002c9c     0x60  EIT_SpeedL.o [1]
+    .bss               zero     0x20002cfc     0x60  EIT_SpeedR.o [1]
+    .bss               zero     0x20002d5c      0x4  imProc.o [1]
+    .bss               zero     0x20002d60      0x4  imProc.o [1]
+    .bss               zero     0x20002d64      0x4  imProc.o [1]
+    .bss               zero     0x20002d68     0xf0  imProc.o [1]
+    .bss               zero     0x20002e58     0xf0  imProc.o [1]
+    .bss               zero     0x20002f48     0xf0  imProc.o [1]
+    .bss               zero     0x20003038     0xf0  imProc.o [1]
+    .bss               zero     0x20003128    0x194  imProc.o [1]
+    .bss               zero     0x200032bc      0x4  imProc.o [1]
+    .bss               zero     0x200032c0      0x4  imProc.o [1]
+    .bss               zero     0x200032c4      0x4  imProc.o [1]
+    .bss               zero     0x200032c8      0x4  imProc.o [1]
+    .bss               zero     0x200032cc      0x4  imProc.o [1]
+    .bss               zero     0x200032d0      0x4  imProc.o [1]
+    .bss               zero     0x200032d4      0x4  imProc.o [1]
+    .bss               zero     0x200032d8      0x4  imProc.o [1]
+    .bss               zero     0x200032dc      0x4  imProc.o [1]
+    .bss               zero     0x200032e0      0x4  imProc.o [1]
+    .bss               zero     0x200032e4      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x200032e8      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x200032ec      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x200032f0   0x4b00  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x20007df0    0x960  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x20008750      0x4  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x20008754      0x4  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x20008758     0x50  xfiles.o [3]
+    .bss               zero     0x200087a8      0x1  EIT_Key.o [1]
+    .bss               zero     0x200087a9      0x1  VCAN_LCD_ST7735R.o [1]
+                              - 0x200087ac  0x1839c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18192:
+          0x1fff0618  0x18192
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  rw code  ro data  rw data
+    ------               -------  -------  -------  -------
+D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj: [1]
+    CarSystem.o              184
+    CarTest.o                776                          8
+    ControlGraphTask.o     1 560                        148
+    ControlParam.o           284                        184
+    ControlSpeedTask.o       796
+    ControlVar.o              48                         44
+    EIT_ADC.o                108
+    EIT_Buzzer.o              44
+    EIT_Key.o              1 460                70       15
+    EIT_Log.o                264                 1   75 005
+    EIT_Model.o               58
+    EIT_MotorL.o             166
+    EIT_MotorR.o             166
+    EIT_PID.o                346
+    EIT_Show.o               744               125       76
+    EIT_SpeedL.o             212                         96
+    EIT_SpeedR.o             220                         96
+    EIT_Steer.o               30
+    IntHandler.o              92
+    MK60_DWT.o               108
+    MK60_PIT.o               104
+    MK60_SysTick.o            76
+    MK60_adc.o               656                 8        8
+    MK60_conf.o               20
+    MK60_dma.o               448
+    MK60_ftm.o             1 140                16       16
+    MK60_gpio.o              284                20       20
+    MK60_mcg.o               980       76      168       92
+    MK60_port.o              176                20       20
+    MK60_uart.o              532                24       24
+    MK60_wdog.o               64
+    VCAN_ASCII.o                             1 536
+    VCAN_LCD.o             1 340                12
+    VCAN_LCD_ST7735R.o     7 168                 4        5
+    VCAN_OV7725_Eagle.o      544               107   21 710
+    VCAN_SCCB.o              864
+    imCom.o                   24
+    imProc.o              13 424                 4    1 420
+    main.o                    16
+    misc.o                    24
+    startup_MK60DZ10.o         8
+    system_MK60DZ10.o        268                         12
+    vectors.o                                1 040
+    -------------------------------------------------------
+    Total:                35 826       76    3 155   98 999
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                     4
+    low_level_init.o           4
+    printf.o                  36
+    putchar.o                 12
+    xfiles.o                                    67      144
+    xprintftiny.o            336
+    xprout.o                  22
+    -------------------------------------------------------
+    Total:                   414                67      144
+
+m7M_tls.a: [4]
+    DblAdd.o                 232
+    DblDiv.o                 582
+    DblMul.o                 418
+    DblSub.o                 384
+    DblToFlt.o               144
+    DblToI32.o                88
+    FltToDbl.o                78
+    I32ToDbl.o                44
+    fpinit_M.o                34
+    -------------------------------------------------------
+    Total:                 2 004
+
+rt7M_tl.a: [5]
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    strlen.o                  54
+    zero_init3.o              34
+    -------------------------------------------------------
+    Total:                   176
+
+shb_l.a: [6]
+    exit.o                    20
+    -------------------------------------------------------
+    Total:                    20
+
+    Gaps                      16                 2        7
+    Linker created             8                16
+-----------------------------------------------------------
+    Grand Total:          38 464       76    3 240   99 150
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+.bss$$Base              0x1fff0618            --   Gb  - Linker created -
+.bss$$Limit             0x200087ac            --   Gb  - Linker created -
+.data$$Base             0x1fff0410            --   Gb  - Linker created -
+.data$$Limit            0x1fff05cc            --   Gb  - Linker created -
+.data_init$$Base        0x00009b08            --   Gb  - Linker created -
+.data_init$$Limit       0x00009cc4            --   Gb  - Linker created -
+?main                   0x0000a1e5           Code  Gb  cmain.o [5]
+ADCN                    0x1fff0468      0x8  Data  Gb  MK60_adc.o [1]
+Buzzer_Init             0x00003889     0x14  Code  Gb  EIT_Buzzer.o [1]
+CarSpeed2LSpeed         0x00006501     0xdc  Code  Gb  ControlSpeedTask.o [1]
+CarSpeed2RSpeed         0x000065dd     0xdc  Code  Gb  ControlSpeedTask.o [1]
+CarSystem_Init          0x00009f69      0xc  Code  Gb  CarSystem.o [1]
+Car_Test                0x00008f59    0x308  Code  Gb  CarTest.o [1]
+Circle                  0x200032dc      0x4  Data  Gb  imProc.o [1]
+CodeRelocate$$Base      0x0000a13c            --   Gb  - Linker created -
+CodeRelocate$$Limit     0x0000a188            --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff05cc            --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0618            --   Gb  - Linker created -
+ControlParam_Init       0x00009cc5    0x11c  Code  Gb  ControlParam.o [1]
+ControlRouter           0x00005ee9     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlRouter1          0x00005f07     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlRouter2          0x00005f25     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlRouter3          0x00005f43     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlRouter4          0x00005f61     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlRouter5          0x00005f7f     0x1e  Code  Gb  ControlGraphTask.o [1]
+ControlVar_Init         0x0000a00d     0x30  Code  Gb  ControlVar.o [1]
+Control_Init            0x00009f75     0x14  Code  Gb  CarSystem.o [1]
+DMA0_IRQHandler         0x0000a109      0xe  Code  Gb  IntHandler.o [1]
+D_Max                   0x1fff0464      0x4  Data  Gb  imProc.o [1]
+DataLog                 0x1fff0798  0x124f8  Data  Lc  EIT_Log.o [1]
+DataLog_Add             0x000092a3     0x72  Code  Gb  EIT_Log.o [1]
+DataLog_CheckEN         0x0000927d     0x26  Code  Gb  EIT_Log.o [1]
+DataLog_Init            0x00009261     0x1c  Code  Gb  EIT_Log.o [1]
+DataLog_Print           0x00009315     0x34  Code  Gb  EIT_Log.o [1]
+DisBuzzer               0x000038a9      0xc  Code  Gb  EIT_Buzzer.o [1]
+EitKey_PTxn             0x1fff0410      0x8  Data  Gb  EIT_Key.o [1]
+Embedded_Init           0x00009f89     0x68  Code  Gb  CarSystem.o [1]
+EnBuzzer                0x0000389d      0xc  Code  Gb  EIT_Buzzer.o [1]
+FTMN                    0x1fff0470     0x10  Data  Gb  MK60_ftm.o [1]
+FTM_PWM_Duty            0x0000710f     0x88  Code  Gb  MK60_ftm.o [1]
+FTM_PWM_init            0x00006fdd    0x132  Code  Gb  MK60_ftm.o [1]
+FTM_QUAD_Init           0x00007197     0xe6  Code  Gb  MK60_ftm.o [1]
+FTM_QUAD_clean          0x0000728b      0xe  Code  Gb  MK60_ftm.o [1]
+FTM_QUAD_get            0x0000727d      0xe  Code  Gb  MK60_ftm.o [1]
+FTM_port_mux            0x00006e39    0x1a4  Code  Lc  MK60_ftm.o [1]
+GPIOX                   0x1fff0480     0x14  Data  Gb  MK60_gpio.o [1]
+GetSetPointMaxSpeed     0x00005fbb     0xb4  Code  Gb  ControlGraphTask.o [1]
+GetSetPointMaxSpeed1    0x0000606f     0xb2  Code  Gb  ControlGraphTask.o [1]
+Graph_AverageMBound     0x0000344b     0x58  Code  Lc  imProc.o [1]
+Graph_Calculate_Dir     0x0000359d    0x12e  Code  Gb  imProc.o [1]
+Graph_Cam2Real          0x000034a3     0x3e  Code  Gb  imProc.o [1]
+Graph_Cam2Real_BoundM   0x000034e1     0x90  Code  Gb  imProc.o [1]
+Graph_FindMidLine       0x0000055d    0xb8a  Code  Gb  imProc.o [1]
+Graph_FindMidLine1      0x0000111d    0xb8a  Code  Gb  imProc.o [1]
+Graph_FindMidLine2      0x00001cdd    0xb88  Code  Gb  imProc.o [1]
+Graph_FindMidLine3      0x00002899    0xbb2  Code  Gb  imProc.o [1]
+Graph_JudgeOut          0x00000419    0x128  Code  Gb  imProc.o [1]
+HBoundL                 0x20002d68     0xf0  Data  Gb  imProc.o [1]
+HBoundM                 0x20002f48     0xf0  Data  Gb  imProc.o [1]
+HBoundM_F               0x20003038     0xf0  Data  Gb  imProc.o [1]
+HBoundM_REAL            0x20003128    0x194  Data  Gb  imProc.o [1]
+HBoundR                 0x20002e58     0xf0  Data  Gb  imProc.o [1]
+H_Min                   0x200032bc      0x4  Data  Gb  imProc.o [1]
+ImageOver               0x20008754      0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+Image_Data              0x200032f0   0x4b00  Data  Gb  VCAN_OV7725_Eagle.o [1]
+Key_Check               0x000078d5     0x4c  Code  Gb  EIT_Key.o [1]
+Key_Debug               0x00007921    0x4c2  Code  Gb  EIT_Key.o [1]
+Key_Init                0x000078ad     0x28  Code  Gb  EIT_Key.o [1]
+LCD_Img_gray_Z          0x000085a3    0x108  Code  Gb  VCAN_LCD.o [1]
+LCD_ST7735R_dir         0x0000523b    0x9f8  Code  Gb  VCAN_LCD_ST7735R.o [1]
+LCD_ST7735R_init        0x0000427d    0xfbe  Code  Gb  VCAN_LCD_ST7735R.o [1]
+LCD_ST7735R_ptlon       0x00005c49    0x208  Code  Gb  VCAN_LCD_ST7735R.o [1]
+LCD_ShowDebug           0x00007fad    0x162  Code  Gb  EIT_Show.o [1]
+LCD_ShowSmallImag       0x00007ead     0xfe  Code  Gb  EIT_Show.o [1]
+LCD_char                0x0000833f    0x184  Code  Gb  VCAN_LCD.o [1]
+LCD_init                0x00008195     0x2a  Code  Gb  VCAN_LCD.o [1]
+LCD_num                 0x0000852b     0x78  Code  Gb  VCAN_LCD.o [1]
+LCD_point               0x00008287     0xb8  Code  Gb  VCAN_LCD.o [1]
+LCD_rectangle           0x000081bf     0xc8  Code  Gb  VCAN_LCD.o [1]
+LCD_showADC             0x000087b1     0x6c  Code  Gb  EIT_ADC.o [1]
+LCD_str                 0x000084c3     0x68  Code  Gb  VCAN_LCD.o [1]
+MaxEnd                  0x200032cc      0x4  Data  Gb  imProc.o [1]
+MaxStart                0x200032c8      0x4  Data  Gb  imProc.o [1]
+MaxWhite                0x200032c0      0x4  Data  Gb  imProc.o [1]
+Model                   0x1fff06d4      0x4  Data  Gb  CarTest.o [1]
+Model_Init              0x0000a03d     0x3a  Code  Gb  EIT_Model.o [1]
+MotorLPID_Init          0x000068f9     0x1c  Code  Gb  EIT_SpeedL.o [1]
+MotorLPID_InitParam     0x00006915     0x84  Code  Gb  EIT_SpeedL.o [1]
+MotorLPID_InitState     0x00006999     0x10  Code  Gb  EIT_SpeedL.o [1]
+MotorLPID_SetSpeed      0x000069a9      0x6  Code  Gb  EIT_SpeedL.o [1]
+MotorLPID_SpeedControl  0x000069af     0x12  Code  Gb  EIT_SpeedL.o [1]
+MotorL_GetTsCount       0x00006c23     0x14  Code  Gb  EIT_MotorL.o [1]
+MotorL_GetWheelSpeed    0x00006c09     0x1a  Code  Gb  EIT_MotorL.o [1]
+MotorL_Init             0x00006b91     0x30  Code  Gb  EIT_MotorL.o [1]
+MotorL_PID              0x20002c9c     0x60  Data  Gb  EIT_SpeedL.o [1]
+MotorL_Run              0x00006bc1     0x44  Code  Gb  EIT_MotorL.o [1]
+MotorRPID_Init          0x0000681d     0x1c  Code  Gb  EIT_SpeedR.o [1]
+MotorRPID_InitParam     0x00006839     0x84  Code  Gb  EIT_SpeedR.o [1]
+MotorRPID_InitState     0x000068bd     0x16  Code  Gb  EIT_SpeedR.o [1]
+MotorRPID_SetSpeed      0x000068d3      0x6  Code  Gb  EIT_SpeedR.o [1]
+MotorRPID_SpeedControl  0x000068d9     0x12  Code  Gb  EIT_SpeedR.o [1]
+MotorR_GetTsCount       0x00006ccb     0x14  Code  Gb  EIT_MotorR.o [1]
+MotorR_GetWheelSpeed    0x00006cb1     0x1a  Code  Gb  EIT_MotorR.o [1]
+MotorR_Init             0x00006c39     0x30  Code  Gb  EIT_MotorR.o [1]
+MotorR_PID              0x20002cfc     0x60  Data  Gb  EIT_SpeedR.o [1]
+MotorR_Run              0x00006c69     0x44  Code  Gb  EIT_MotorR.o [1]
+NVIC_DisableIRQ         0x0000937d     0x14  Code  Lc  VCAN_OV7725_Eagle.o [1]
+NVIC_EnableIRQ          0x00009f55     0x14  Code  Lc  CarSystem.o [1]
+NVIC_EnableIRQ          0x00009369     0x14  Code  Lc  VCAN_OV7725_Eagle.o [1]
+Out                     0x200032c4      0x4  Data  Gb  imProc.o [1]
+PID_InitFbVal           0x00006d27     0x12  Code  Gb  EIT_PID.o [1]
+PID_MaxMin              0x00006d39     0x16  Code  Lc  EIT_PID.o [1]
+PID_MaxMinFloat         0x00006d4f     0x38  Code  Lc  EIT_PID.o [1]
+PID_Run_PI              0x00006d87     0xb2  Code  Gb  EIT_PID.o [1]
+PID_SetFbVal            0x00006cdf     0x48  Code  Gb  EIT_PID.o [1]
+PIT0_IRQHandler         0x0000a117     0x14  Code  Gb  IntHandler.o [1]
+PORTA_handler           0x0000a0e1     0x28  Code  Gb  IntHandler.o [1]
+PORTX                   0x1fff04f0     0x14  Data  Gb  MK60_port.o [1]
+Region$$Table$$Base     0x0000a1d4            --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000a1e4            --   Gb  - Linker created -
+Reset_Handler           0x00000411           Code  Gb  startup_MK60DZ10.o [1]
+RunDebugFlag            0x200087a8      0x1  Data  Gb  EIT_Key.o [1]
+S                       0x200032d0      0x4  Data  Gb  imProc.o [1]
+SCCB_Ack                0x00008ccd     0x3c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_GPIO_init          0x00008c13     0x28  Code  Gb  VCAN_SCCB.o [1]
+SCCB_NoAck              0x00008d09     0x3c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x00008ea9     0x2c  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x00008ed5     0x84  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReceiveByte        0x00008dd5     0x54  Code  Lc  VCAN_SCCB.o [1]
+SCCB_SendByte           0x00008d91     0x44  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Start              0x00008c3b     0x5e  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Stop               0x00008c99     0x34  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WaitAck            0x00008d45     0x4c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x00008e39     0x28  Code  Gb  VCAN_SCCB.o [1]
+SCCB_WriteByte_one      0x00008e61     0x48  Code  Lc  VCAN_SCCB.o [1]
+SCCB_delay              0x00008bf9     0x1a  Code  Lc  VCAN_SCCB.o [1]
+ST7735R_get_h           0x00005e51      0x6  Code  Gb  VCAN_LCD_ST7735R.o [1]
+ST7735R_get_w           0x00005e57      0x6  Code  Gb  VCAN_LCD_ST7735R.o [1]
+Site_A                  0x1fff0460      0x4  Data  Gb  EIT_Show.o [1]
+Site_AutoStop           0x1fff0454      0x4  Data  Gb  EIT_Show.o [1]
+Site_ENorNOT            0x1fff0458      0x4  Data  Gb  EIT_Show.o [1]
+Site_KdIn               0x1fff0434      0x4  Data  Gb  EIT_Show.o [1]
+Site_KdInNum            0x1fff0438      0x4  Data  Gb  EIT_Show.o [1]
+Site_Kp                 0x1fff044c      0x4  Data  Gb  EIT_Show.o [1]
+Site_KpIn               0x1fff042c      0x4  Data  Gb  EIT_Show.o [1]
+Site_KpInNum            0x1fff0430      0x4  Data  Gb  EIT_Show.o [1]
+Site_KpNum              0x1fff0450      0x4  Data  Gb  EIT_Show.o [1]
+Site_MDSK               0x1fff043c      0x4  Data  Gb  EIT_Show.o [1]
+Site_MDSKNum            0x1fff0440      0x4  Data  Gb  EIT_Show.o [1]
+Site_MaxSpeed           0x20002c94      0x4  Data  Gb  EIT_Show.o [1]
+Site_MaxSpeedNum        0x1fff0420      0x4  Data  Gb  EIT_Show.o [1]
+Site_MinSpeed           0x1fff0424      0x4  Data  Gb  EIT_Show.o [1]
+Site_MinSpeedNum        0x1fff0428      0x4  Data  Gb  EIT_Show.o [1]
+Site_V                  0x1fff0444      0x4  Data  Gb  EIT_Show.o [1]
+Site_VNum               0x1fff0448      0x4  Data  Gb  EIT_Show.o [1]
+Size_A                  0x20002c98      0x4  Data  Gb  EIT_Show.o [1]
+SpeedControlTask        0x000066b9    0x12c  Code  Gb  ControlSpeedTask.o [1]
+SteerDirControl         0x00006121    0x146  Code  Gb  ControlGraphTask.o [1]
+Steer_Init              0x000069cd     0x10  Code  Gb  EIT_Steer.o [1]
+Steer_Run               0x000069dd      0xe  Code  Gb  EIT_Steer.o [1]
+UARTN                   0x1fff0504     0x18  Data  Gb  MK60_uart.o [1]
+_PrintfTiny             0x00009785    0x138  Code  Gb  xprintftiny.o [3]
+_Prout                  0x0000a229     0x16  Code  Gb  xprout.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8            --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000            --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000            --   Gb  command line/config [2]
+__aeabi_d2f             0x00008721           Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x00003ce1           Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x00003d0d           Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x00003d39           Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x000038f9           Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x000069ed           Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00003b61           Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x000086d1           Code  Gb  FltToDbl.o [4]
+__aeabi_i2d             0x000038cd           Code  Gb  I32ToDbl.o [4]
+__cmain                 0x0000a1e5           Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410            --   Gb  command line/config [2]
+__exit                  0x0000a215     0x14  Code  Gb  exit.o [6]
+__iar_Stdout            0x1fff058c     0x40  Data  Gb  xfiles.o [3]
+__iar_d2uiz             0x00003d19           Code  Gb  DblToI32.o [4]
+__iar_dadd              0x00003d4d           Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x0000a189     0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00003b75           Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x00003b87           Code  Gb  DblSub.o [4]
+__iar_init_vfp          0x0000a1b1           Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x0000a291           Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x000038e1           Code  Gb  I32ToDbl.o [4]
+__iar_zero_init3        0x00003b3f     0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000a1ff      0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000    0x410  Data  Gb  vectors.o [1]
+_call_main              0x0000a1f1           Code  Gb  cmain.o [5]
+_exit                   0x0000a209           Code  Gb  cexit.o [5]
+_main                   0x0000a1fb           Code  Gb  cmain.o [5]
+adc_init                0x00003f3d    0x1f8  Code  Gb  MK60_adc.o [1]
+adc_once                0x00004135     0x48  Code  Gb  MK60_adc.o [1]
+adc_start               0x0000417d     0x40  Code  Lc  MK60_adc.o [1]
+angle                   0x1fff06dc      0x4  Data  Gb  ControlGraphTask.o [1]
+angleLast               0x1fff06d8      0x4  Data  Gb  ControlGraphTask.o [1]
+ascii_8x16              0x000072ac    0x600  Data  Gb  VCAN_ASCII.o [1]
+bus_clk_khz             0x200032ec      0x4  Data  Gb  system_MK60DZ10.o [1]
+cnt                     0x20002c90      0x4  Data  Lc  EIT_Log.o [1]
+common_startup          0x00009e3d     0x74  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x200032e4      0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x200032e8      0x4  Data  Gb  system_MK60DZ10.o [1]
+counttime               0x1fff0718      0x4  Data  Gb  ControlGraphTask.o [1]
+default_isr             0x0000a25f      0x2  Code  Gb  MK60_conf.o [1]
+delay                   0x1fff0710      0x4  Data  Gb  ControlGraphTask.o [1]
+dma_gpio_input_init     0x000095ad     0x46  Code  Lc  MK60_dma.o [1]
+dma_portx2buff_init     0x000095f3    0x158  Code  Gb  MK60_dma.o [1]
+dwt_delay_ms            0x00005ed1     0x18  Code  Gb  MK60_DWT.o [1]
+dwt_delay_us            0x00005e7d     0x42  Code  Gb  MK60_DWT.o [1]
+exit                    0x0000a203      0x4  Code  Gb  exit.o [3]
+flag                    0x1fff070c      0x4  Data  Gb  ControlGraphTask.o [1]
+fputc                   0x0000a24d     0x12  Code  Gb  MK60_conf.o [1]
+gDir_Far                0x20002d64      0x4  Data  Gb  imProc.o [1]
+gDir_FarFilter          0x1fff06f4      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_FarFilterDiff      0x1fff06fc      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_FarFilterLast      0x1fff06f8      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_FarFilterSlow      0x1fff0700      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_FarFilterSlowDiff  0x1fff0708      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_FarFilterSlowLast  0x1fff0704      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_Filter             0x00006267    0x23c  Code  Gb  ControlGraphTask.o [1]
+gDir_Mid                0x20002d60      0x4  Data  Gb  imProc.o [1]
+gDir_MidFilter          0x1fff06e8      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_MidFilterDiff      0x1fff06f0      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_MidFilterLast      0x1fff06ec      0x4  Data  Gb  ControlGraphTask.o [1]
+gDir_Near               0x20002d5c      0x4  Data  Gb  imProc.o [1]
+gParam                  0x1fff0618     0xb8  Data  Gb  ControlParam.o [1]
+gVar                    0x1fff076c     0x2c  Data  Gb  ControlVar.o [1]
+gpio_get                0x00003f1d     0x1a  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x00003e21     0xae  Code  Gb  MK60_gpio.o [1]
+gpio_set                0x00003ecf     0x4e  Code  Gb  MK60_gpio.o [1]
+img_extract             0x00009469     0x6e  Code  Gb  VCAN_OV7725_Eagle.o [1]
+imgbuff0                0x20007df0    0x960  Data  Gb  VCAN_OV7725_Eagle.o [1]
+imgsize                 0x1fff045c      0x4  Data  Gb  EIT_Show.o [1]
+int_abs                 0x00005f9d      0xa  Code  Lc  ControlGraphTask.o [1]
+int_abs                 0x000038c5      0x8  Code  Gb  imCom.o [1]
+int_delta_Limit         0x00005fa7     0x14  Code  Lc  ControlGraphTask.o [1]
+int_max                 0x000038bd      0x8  Code  Gb  imCom.o [1]
+int_min                 0x000038b5      0x8  Code  Gb  imCom.o [1]
+judge_startline         0x000036d1    0x17a  Code  Gb  imProc.o [1]
+main                    0x00009f2d     0x10  Code  Gb  main.o [1]
+mcg_cfg                 0x1fff0494     0x58  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff04ec      0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00008825    0x304  Code  Gb  MK60_mcg.o [1]
+num                     0x200032d8      0x4  Data  Gb  imProc.o [1]
+obuf                    0x20008758     0x50  Data  Lc  xfiles.o [3]
+out                     0x0000976d     0x18  Code  Lc  xprintftiny.o [3]
+ov7725_eagle_cfgnum     0x1fff0588      0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x00009445     0x24  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x20008750      0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fff0520      0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x00009391     0x16  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_port_init  0x000093a7     0x54  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fff0524     0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg_init   0x000094d7     0x7a  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x000093fb     0x4a  Code  Gb  VCAN_OV7725_Eagle.o [1]
+pit_init                0x0000a079     0x5a  Code  Gb  MK60_PIT.o [1]
+pixel_change            0x200032d4      0x4  Data  Gb  imProc.o [1]
+pll_init                0x00008b29     0xb2  Code  Gb  MK60_mcg.o [1]
+port_init               0x000041cd     0x44  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x00004211     0x62  Code  Gb  MK60_port.o [1]
+printf                  0x00009589     0x24  Code  Gb  printf.o [3]
+putchar                 0x0000a241      0xc  Code  Gb  putchar.o [3]
+set_sys_dividers        0x1fff05cd     0x4c  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x00009f43      0xa  Code  Gb  misc.o [1]
+spSpeedL                0x1fff06e0      0x4  Data  Gb  ControlGraphTask.o [1]
+spSpeedR                0x1fff06e4      0x4  Data  Gb  ControlGraphTask.o [1]
+speed_flag              0x1fff06d0      0x4  Data  Gb  CarTest.o [1]
+st7735r_dir             0x200087a9      0x1  Data  Gb  VCAN_LCD_ST7735R.o [1]
+st7735r_h               0x1fff051c      0x2  Data  Gb  VCAN_LCD_ST7735R.o [1]
+st7735r_w               0x1fff051e      0x2  Data  Gb  VCAN_LCD_ST7735R.o [1]
+start                   0x00009de1     0x20  Code  Gb  system_MK60DZ10.o [1]
+startcheckline          0x1fff0714      0x4  Data  Gb  ControlGraphTask.o [1]
+strlen                  0x000098bd           Code  Gb  strlen.o [5]
+sysinit                 0x00009e01     0x3c  Code  Gb  system_MK60DZ10.o [1]
+systick_delay           0x00007e61     0x24  Code  Gb  MK60_SysTick.o [1]
+systick_delay_ms        0x00007e85     0x18  Code  Gb  MK60_SysTick.o [1]
+tab                     0x1fff0418      0x4  Data  Gb  EIT_Key.o [1]
+uart_init               0x000098f5    0x1e4  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x00009ad9     0x1a  Code  Gb  MK60_uart.o [1]
+wdog_disable            0x00009eed     0x16  Code  Gb  MK60_wdog.o [1]
+wdog_unlock             0x00009f03     0x20  Code  Lc  MK60_wdog.o [1]
+write_vtor              0x00009f3d      0x6  Code  Gb  misc.o [1]
+
+
+[1] = D:\学习资料\飞思卡尔相关文件\C车代码\singlecar\Prj\IAR\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  38 464 bytes of readonly  code memory
+      76 bytes of readwrite code memory
+   3 240 bytes of readonly  data memory
+  99 150 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
